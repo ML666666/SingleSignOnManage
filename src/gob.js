@@ -8,7 +8,7 @@ let gob = {
         }else if(window.location.href.indexOf("ujinbi.com")>0){
             return "https://gate.ujinbi.com/usys/authCenter/management/"
         }else{
-            return "https://gate.youhuiduo.cn/usys/authCenter/management/"
+            return "APi/"
         }
     },
     getWebUrl:function(){
