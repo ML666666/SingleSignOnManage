@@ -4,18 +4,18 @@ let gob = {
     router:null,
     getApiUrl:function(){
         if(window.location.href.indexOf("youhuiduo.cn")>0){
-            return "https://gate.youhuiduo.cn/usys/authCenter/management/" 
+            return "https:/xxxxx/usys/authCenter/management/" 
         }else if(window.location.href.indexOf("ujinbi.com")>0){
-            return "https://gate.ujinbi.com/usys/authCenter/management/"
+            return "https://xxx/usys/authCenter/management/"
         }else{
             return "APi/"
         }
     },
     getWebUrl:function(){
         if(window.location.href.indexOf("youhuiduo.cn")>0){
-            return "http://gate.youhuiduo.cn/usys/authCenter/management/" 
+            return "http://xxx/usys/authCenter/management/" 
         }else if(window.location.href.indexOf("ujinbi.com")>0){ 
-            return "https://gate.ujinbi.com/"
+            return "https://xxxx/"
         }else{
             return "http://176.166.1.47:11031/"
         }
